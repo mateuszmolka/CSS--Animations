@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+/*I love u start*/
+p{
+    text-align: center;
+    font-size: 5em;
+    font-weight: bold;
+}
+p >i {
+    color: red;
+    animation: heart 1s linear infinite;
+}
+
+@keyframes heart {
+    0%, 100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+}
+/*I love u end*/
+
