@@ -1,6 +1,8 @@
 body{
     margin: 0;
+    box-sizing: border-box;
 }
+/*First animation start*/
 #first-animation{
     margin: 10px;
     animation-name: first-animation;
@@ -24,3 +26,18 @@ body{
         border-radius: 50%;
     }
 }
+/*First animation end*/
+/*Second animation start*/
+/*
+#second-animation-container{
+    width: 500px;
+    height: 300px;
+    border: 5px red solid;
+}
+.second-animation{
+    display: inline-block;
+    border: 1px solid green;
+}
+*/
+/*Second animation end*/
+
