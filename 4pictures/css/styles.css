@@ -25,7 +25,7 @@ body{
     height: 100%;
     background-size: cover;
     position: absolute;
-    background-position: center;
+    background-position: left;
 }
 /*4 pictures end*/
 .picture-container{
@@ -42,11 +42,11 @@ body{
 }
 
 .col-1-4:hover {
-    width:40%;
+    width:70%;
 }
 
 .picture-container:hover .col-1-4:not(:hover) {
-    width:20%;
+    width:10%;
 }
 
 
